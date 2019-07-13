@@ -1,0 +1,27 @@
+/application.yml
+
+# Ferratum Maven Java gitignore - These should be consistent across projects.
+#nieco
+# Common / Maven
+**/target/
+**/java-generated/
+**/*.log
+**/ignoreMe*
+**/ignoreMe*
+**/jacoco*.exec
+
+# IntelliJ
+*.iml
+/.idea/*
+#!.idea/inspectionProfiles/
+#!.idea/codeStyleSettings.xml
+
+# Eclipse
+**/.settings/
+**/.classpath
+**/.project
+backendservices-boot/logs/spring.log.1
+
+# Generated
+
+
